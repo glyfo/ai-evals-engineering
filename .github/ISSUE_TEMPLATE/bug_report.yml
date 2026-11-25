@@ -1,0 +1,19 @@
+name: Report a reproducible problem
+description: Report a problem in a runnable example or document.
+labels:
+  - bug
+body:
+  - type: textarea
+    id: command
+    attributes:
+      label: Command and output
+      description: Include the command, Python version, and complete error output. Remove secrets and customer data.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Smallest reproduction
+      description: Describe the smallest scenario or file that reproduces the problem.
+    validations:
+      required: true

@@ -1,0 +1,24 @@
+id: S04
+title: Eligible return when the return tool is unavailable
+variant: REF-V1
+routine: REF-R1
+oracle: O2
+dimensions:
+  request_clarity: clear
+  authorization: permitted
+  customer_behavior: cooperative
+message: "Please process the return for order 12345."
+seed:
+  customer_id: customer-001
+  order_12345:
+    customer_id: customer-001
+    age_days: 15
+    eligible: true
+  returns: 0
+faults:
+  create_return: SERVICE_UNAVAILABLE
+expected:
+  final_state:
+    returns: 0
+  state_grade: pass
+  claim_grade: fail
