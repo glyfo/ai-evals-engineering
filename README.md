@@ -1,6 +1,6 @@
 # AI evals engineering
 
-Runnable examples for the "Engineering of AI Evals" series by Glyfo Labs.
+Runnable examples for the "Engineering of AI Evals" series by GLYFO LABS.
 
 The repository starts with [Part 2: Before Your First AI Trace](part-02-bootstrapping/). It turns a manual refund process into a process map, an agent routine, test scenarios, a simulated tool environment, and graded traces.
 

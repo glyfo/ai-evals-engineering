@@ -56,7 +56,7 @@ Use Apache-2.0 for the code and documentation. Require issues to include reprodu
 
 - [ ] **Step 3: Review the prose**
 
-Check that each document has one purpose, uses direct sentences, and does not promise support that Glyfo has not committed to provide.
+Check that each document has one purpose, uses direct sentences, and does not promise support that GLYFO LABS has not committed to provide.
 
 - [ ] **Step 4: Commit**
 
