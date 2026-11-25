@@ -1,0 +1,12 @@
+id: C01
+title: A chatbot answers one greeting
+variant: CONV-V1
+routine: CHAT-R1
+oracle: O1
+message: "Hello"
+expected:
+  final_state:
+    conversation_status: answered
+    tool_calls: 0
+  state_grade: pass
+  claim_grade: pass

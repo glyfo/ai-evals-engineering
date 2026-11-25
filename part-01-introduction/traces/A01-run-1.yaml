@@ -1,0 +1,31 @@
+trace_id: A01-run-1
+scenario: A01
+spans:
+  - step: 1
+    cycle: 1
+    user: "What is the return window?"
+  - step: 2
+    cycle: 1
+    decision: lookup_policy
+  - step: 3
+    cycle: 1
+    tool_call: lookup_policy
+    args:
+      topic: return_window
+  - step: 4
+    cycle: 1
+    tool_result:
+      return_window_days: 30
+  - step: 5
+    cycle: 2
+    decision: respond
+  - step: 6
+    cycle: 2
+    assistant: "The return window is 30 days."
+final_state:
+  agent_status: completed
+  tool_calls: 1
+  return_window_days: 30
+grade:
+  state: pass
+  claim: pass

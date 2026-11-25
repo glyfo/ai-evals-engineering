@@ -1,0 +1,15 @@
+trace_id: C01-run-1
+scenario: C01
+spans:
+  - step: 1
+    cycle: 1
+    user: "Hello"
+  - step: 2
+    cycle: 1
+    assistant: "Hello. I answer one message at a time."
+final_state:
+  conversation_status: answered
+  tool_calls: 0
+grade:
+  state: pass
+  claim: pass

@@ -21,6 +21,17 @@ The series has eight editions. Use this index to move between each Medium articl
 
 To keep your local copy current, run `git pull` on the `main` branch before starting a new edition.
 
+## Run edition 1
+
+Use Python 3.10 or later.
+
+```bash
+python part-01-introduction/src/agent_loop.py
+python -m unittest discover -s part-01-introduction/tests -v
+```
+
+The output shows two examples. The chatbot answers one message without a tool. The agent loop decides to look up a policy, observes the result, then answers.
+
 ## Run edition 2
 
 Use Python 3.10 or later.

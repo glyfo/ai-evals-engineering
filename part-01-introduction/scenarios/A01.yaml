@@ -1,0 +1,15 @@
+id: A01
+title: An agent loop looks up the return window
+variant: AGENT-V1
+routine: AGENT-R1
+oracle: O2
+message: "What is the return window?"
+seed:
+  return_window_days: 30
+expected:
+  final_state:
+    agent_status: completed
+    tool_calls: 1
+    return_window_days: 30
+  state_grade: pass
+  claim_grade: pass
