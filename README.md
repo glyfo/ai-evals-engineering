@@ -1,17 +1,23 @@
 # AI evals engineering
 
-Runnable examples for the eight-edition "Engineering of AI Evals" series by GLYFO LABS.
+Runnable companion material for the eight-edition "Engineering of AI Evals" series by GLYFO LABS.
 
-This repository contains the runnable companion material for each edition. A new top-level `part-XX-*` directory appears when its edition is published.
+The articles are published on Medium. This repository is the home for the material that accompanies every edition, including runnable examples when an edition needs them.
 
 ## Follow the series
 
-The series has eight editions. The repository currently includes the following companion example.
+The series has eight editions. Use this index to move between each Medium article and its repository material.
 
-| Edition | Companion example | Status |
+| Edition | Article and repository material | Status |
 | --- | --- | --- |
+| 1 | [Your AI Works. Can You Prove It?](https://medium.com/@falexm/your-ai-works-can-you-prove-it-part-1-of-8-the-engineering-of-ai-evals-322bbc732a8d) and [repository introduction](part-01-introduction/) | Available |
 | 2 | [Before Your First AI Trace](part-02-bootstrapping/) | Available |
-| 1, 3-8 | Companion examples | Added when published |
+| 3 | Repository material | Added with edition 3 |
+| 4 | Repository material | Added with edition 4 |
+| 5 | Repository material | Added with edition 5 |
+| 6 | Repository material | Added with edition 6 |
+| 7 | Repository material | Added with edition 7 |
+| 8 | Repository material | Added with edition 8 |
 
 To keep your local copy current, run `git pull` on the `main` branch before starting a new edition.
 
@@ -41,7 +47,7 @@ part-02-bootstrapping/
   traces/        Readable trace examples
 ```
 
-Each published companion example has its own top-level `part-XX-*` directory.
+Each edition has a top-level `part-XX-*` directory. Directories can contain an introduction, runnable examples, or both.
 
 ## Contribute
 
