@@ -1,10 +1,21 @@
 # AI evals engineering
 
-Runnable examples for the "Engineering of AI Evals" series by GLYFO LABS.
+Runnable examples for the eight-edition "Engineering of AI Evals" series by GLYFO LABS.
 
-The repository starts with [Part 2: Before Your First AI Trace](part-02-bootstrapping/). It turns a manual refund process into a process map, an agent routine, test scenarios, a simulated tool environment, and graded traces.
+This repository contains the runnable companion material for each edition. A new top-level `part-XX-*` directory appears when its edition is published.
 
-## Run Part 2
+## Follow the series
+
+The series has eight editions. The repository currently includes the following companion example.
+
+| Edition | Companion example | Status |
+| --- | --- | --- |
+| 2 | [Before Your First AI Trace](part-02-bootstrapping/) | Available |
+| 1, 3-8 | Companion examples | Added when published |
+
+To keep your local copy current, run `git pull` on the `main` branch before starting a new edition.
+
+## Run edition 2
 
 Use Python 3.10 or later.
 
@@ -30,7 +41,7 @@ part-02-bootstrapping/
   traces/        Readable trace examples
 ```
 
-Each future series part will add one top-level `part-XX-...` directory.
+Each published companion example has its own top-level `part-XX-*` directory.
 
 ## Contribute
 
